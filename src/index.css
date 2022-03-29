@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+  background: #08112e;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.body{
+  display: flex;
+  /* position: absolute; */
+  /* justify-content: center; */
+}
+.sidebar_body{
+  width: 20%;
+}
+.home_body{
+  width: 80%;
+  margin-left: 10px;
+  /* border: 1px solid red; */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+@import url("./Components/Sidebar/Sidebar.css");
+@import url("./Components/Navbar/Navbar.css");
+@import url("./Components/Home/Home.css");
+@import url("./Components/Accounts/Accounts.css");
+@import url("./Components/HyperVault/HyperVault.css");
+@import url("./Components/Swap/Swap.css");
+@import url("./Components/Calculator/Calculator.css");
+@import url("./Components/Footer/Footer.css");

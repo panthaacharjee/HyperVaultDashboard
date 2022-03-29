@@ -1,0 +1,156 @@
+.swap{
+    background: #101C43;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 16px;
+    margin: 50px auto;
+    display: block;
+    width: 60%;
+    padding:0px 40px;
+}
+.swap_logo{
+    display: flex;
+    flex-direction: column;
+    border-bottom: .5px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 0px;
+}
+.swap_logo p{
+    line-height: 10px;
+    text-align: center;
+    color: #fff;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.swap_logo_box{
+    display: flex;
+    justify-content:  space-between;
+    align-items: center;
+}
+
+.swap_box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.swap_box img{
+    height: 20px;
+    width: 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+.swap_heading{
+    color: #fff;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px  !important;
+    margin-right: 8px;
+}
+
+.input_box{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0px;
+}
+
+/* BNB */
+.Bnb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Bnb img{
+    width: 28px;
+    height: 28px;
+}
+
+.Bnb select{
+    width: 25%;
+    padding: 5px 15px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* margin-left: 1px; */
+    background: none;
+    border: none;
+    color: #fff;
+}
+.Bnb button{
+    background: #24D5A9;
+    box-shadow: 0px 12px 36px rgba(36, 213, 169, 0.18);
+    border-radius: 12px;
+    padding: 8px 45px;
+    border: none;
+    
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+.box_input{
+    width: 100%;
+    padding: 20px 0px;
+    margin-bottom: 30px;
+}
+.box_input input{
+    width: 95%;
+    padding: 5px 20px;
+    height: 60px;
+    background: #222E53;
+    border-radius: 12px;
+    border: none;
+}
+.Vault{
+    display: flex;
+    align-items: center;
+}
+.Vault img{
+    width: 30px;
+    height: 30px;
+}
+.Vault .icon{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.Vault select{
+    width: 25%;
+    padding: 5px 15px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    /* margin-left: 1px; */
+    background: none;
+    border: none;
+    color: #fff;
+}
+.slippage_tollarance{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -30px;
+    color: #fff;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.slippage_tollarance span{
+    color: #1FC7D4;
+}
+.hyperswap_button{
+    background: #24D5A9;
+    border-radius: 12px;
+    border: none;
+    padding: 20px 15px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
