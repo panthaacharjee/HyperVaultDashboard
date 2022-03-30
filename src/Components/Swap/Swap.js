@@ -13,7 +13,7 @@ const Swap = () => {
     <div className="swap">
         <div className="swap_logo">
            <div className='swap_logo_box'>
-                <img src={SwapLogo} alt="" />
+                {/* <img src={SwapLogo} alt="" /> */}
                 <div className="swap_box">
                     <p className="swap_heading">Swap</p>
                     <img src={Settings} alt="" />

@@ -10,7 +10,7 @@ import Calculator from './Components/Calculator/Calculator.js';
 import { useState } from 'react';
 
 function App() {
-  const [sidebar, setSidebar] = useState(true)
+  const [sidebar, setSidebar] = useState(false)
 
   return (
     <div className='body'>
