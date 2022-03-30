@@ -231,6 +231,7 @@
     margin-top: 20px;
     color: #fff;
     text-align: center;
+    height: 160px;
 }
 .nof_incinator_title{
     font-family: 'Kanit';
@@ -245,4 +246,30 @@
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
+}
+@media (max-width: 992px) {
+    .marketplace_desc_poperty{
+        width: 33%;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 786px) {
+    .marketplace_desc_poperty{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .titano_price_box{
+        width: 100%;
+    }
+    .nof_incinator_box{
+        width: 100%;
+    }
+    .nof_price_box{
+        width: 100%;
+    }
+    .next_rebase_box{
+        width: 100%;
+        border:1px solid rgba(255, 255, 255, 0.36) ;
+        margin-top: 10px;
+    }
 }

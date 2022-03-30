@@ -29,3 +29,21 @@
     padding: 8px 14px;
     color: #fff;
 }
+
+.navbar button{
+    display: none;
+    font-size: 30px;
+    margin-left: 10px;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+.navbar button{
+    background: none;
+    width: none;
+}
+@media (max-width : 992px) {
+    .navbar button{
+        display: block;
+    }
+}

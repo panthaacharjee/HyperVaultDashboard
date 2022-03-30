@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
-  font-family: 'Quicksand', sans-serif;
+  /* font-family: 'Quicksand', sans-serif; */
   background: #08112e;
 }
 a{
@@ -22,11 +22,33 @@ li{
 }
 .sidebar_body{
   width: 20%;
+  z-index: 11111111;
 }
 .home_body{
   width: 80%;
   margin-left: 10px;
   /* border: 1px solid red; */
+}
+@media (max-width : 992px) {
+  .sidebar_body{
+    /* display: block; */
+    position: fixed;
+    width: 100%;
+  }
+  .home_body{
+    width: 100%;
+    margin-left: 18px;
+  }
+}
+@media (max-width : 768px ) {
+  .home_body{
+    margin-left: 15px
+  }
+}
+@media (max-width: 546px) {
+  .home_body{
+    margin-left: 10px;
+  }
 }
 
 @import url("./Components/Sidebar/Sidebar.css");

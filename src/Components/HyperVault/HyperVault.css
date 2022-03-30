@@ -110,4 +110,21 @@
     font-weight: 600;
     font-size: 26px;
     color: #fff;
+    
+}
+
+@media (max-width : 700px) {
+    .increase_apy_rate{
+        width: 60%;
+    }
+}
+@media (max-width: 450px) {
+    .increase_apy_rate{
+        width: 85%;
+        padding: 20px 10px;
+    }
+    .locked_amount_heading{
+        font-size: 16px;
+        font-weight: 700;
+    }
 }

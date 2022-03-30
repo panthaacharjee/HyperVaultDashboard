@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import logo from '../Images/Logo.png'
 import {NavLink, Link} from 'react-router-dom'
 import SidebarData from './SidebarData'
@@ -11,14 +11,14 @@ import s3 from '../Images/Social/S3.png'
 import s4 from '../Images/Social/S4.png'
 
 
-const Sidebar = () => {
+const Sidebar = ({sidebar, set}) => {
   return (
-    <div className='sidebar'>
-      <img src={logo}/>
+    <div className={sidebar ? "sidebar open" : "sidebar" }>
+      <img className='logo' src={logo}/>
       <div className="menu">
         {SidebarData.map((val, ind)=>{
           return(
-            <div> <NavLink activeClassName="active" to={val.path}><img alt='' src={val.menuIcon}/><p>{val.name}</p></NavLink></div>
+            <div key={ind}> <NavLink activeClassName="active" to={val.path} onClick={()=>set(!sidebar)}><img alt='' src={val.menuIcon}/><span>{val.name}</span></NavLink></div>
           )
         })}
       </div>

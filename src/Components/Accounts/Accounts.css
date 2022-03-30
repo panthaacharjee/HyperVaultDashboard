@@ -13,6 +13,7 @@
     border-radius: 12px;
     padding: 25px;
     margin-top: 20px;
+    line-height: 0px;
 }
 .total_earned_p{
     font-family: 'Kanit';
@@ -158,4 +159,26 @@
     font-weight: 400;
     font-size: 15px;
     color: rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width : 720px) {
+    .apy{
+        flex-direction: column;
+    }
+    .apy_box_related{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .titano_price_duplicate{
+        padding: 0px;
+    }
+    .titano_price_duplicate_title{
+        font-size: 16px;
+    }
+    .titano_price_duplicate_value{
+        font-size: 16px;
+    }
 }

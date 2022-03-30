@@ -22,7 +22,7 @@ const HyperVault = () => {
                 />
             </div>
             <div className="increase_apy_rate">
-                <div className="increase_apy_rate_heading">Increased APY rate</div>
+                <div className="increase_apy_rate_heading">Increased APY rate :  <span style={{color : "#24D5A9"}}>1,016,088.893%</span></div>
                 <p>Token Amount to lok</p>  
                 <input type="text" placeholder="0.0"/><br/><br/>
                 <button>Lock</button>
