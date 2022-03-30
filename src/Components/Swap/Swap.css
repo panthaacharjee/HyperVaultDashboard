@@ -70,7 +70,7 @@
     padding: 5px 15px;
     font-family: 'Kanit';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     /* margin-left: 1px; */
     background: none;
@@ -121,7 +121,7 @@
     padding: 5px 15px;
     font-family: 'Kanit';
     font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     /* margin-left: 1px; */
     background: none;
@@ -137,7 +137,7 @@
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 12px;
 }
 .slippage_tollarance span{
     color: #1FC7D4;
@@ -147,10 +147,11 @@
     border-radius: 12px;
     border: none;
     padding: 20px 15px;
+    
     font-family: 'Kanit';
     font-style: normal;
-    font-weight: bold;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 16px;
     margin-bottom: 10px;
     cursor: pointer;
 }

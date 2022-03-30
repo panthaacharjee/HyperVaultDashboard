@@ -9,7 +9,7 @@ export const CalculatorHyperData = [
     },
     {
         title : "Your HyperVault Balance",
-        value : "102,483.58%"
+        value : "10,000"
     },
    
 ]

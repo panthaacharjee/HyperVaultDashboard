@@ -124,7 +124,7 @@
     background-color: red;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1360px) {
     .calculator_amount_box{
         width: 47%;
 
