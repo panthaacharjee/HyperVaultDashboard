@@ -26,12 +26,12 @@ export const CalculatorAmountData = [
     },
     {
         title:"HyperVault price at purchase ($)",
-        value : "617,122.283",
+        value : "0.201145",
         position : "Current"
     },
     {
         title:"Future HyperVault PRICE ($)",
-        value : "617,122.283",
+        value : "0.201145",
         position : "Current"
     },
 ]

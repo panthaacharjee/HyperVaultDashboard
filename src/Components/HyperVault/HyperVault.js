@@ -4,7 +4,7 @@ import Countdown from 'react-countdown'
 const HyperVault = () => {
   const renderer = ({days, hours, minutes, seconds, completed })=>{
     return(
-      <p className='time'><span>{days}</span> : <span>{hours}</span> : <span>{minutes}</span> : <span>{seconds}</span></p>
+      <p className='time'><span>{`${days}`}</span> : <span>{hours}</span> : <span>{minutes}</span> : <span>{seconds}</span></p>
     )
   }
   return (

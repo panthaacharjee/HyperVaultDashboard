@@ -124,6 +124,16 @@
     background-color: red;
 }
 
+.css-187mznn-MuiSlider-root{
+    color: #24D5A9 !important;
+    height: 15px !important;
+
+}
+.css-14pt78w-MuiSlider-rail{
+    color: #1D2950;
+    height: 10px !important;
+}
+
 @media (max-width: 1360px) {
     .calculator_amount_box{
         width: 47%;
