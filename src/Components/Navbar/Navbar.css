@@ -11,18 +11,21 @@
 .navbar p{
     margin-left: 10px;
     color: #fff;
-    font-size: 20px;
-    font-family: 'Kanit', "san-sarif";
-    font-weight: 300;
+    font-family: 'Kanit';
     font-style: normal;
-    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    /* text-transform: uppercase; */
+}
+.navbar p span{
+    font-size: 16px;
 }
 .navbar a{
     margin-left: 20px;
     font-family: 'Kanit';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 24px;
     /* line-height: 28px; */
     background: #24D5A9;
     border-radius: 10px;
@@ -45,5 +48,30 @@
 @media (max-width : 992px) {
     .navbar button{
         display: block;
+    }
+}
+
+@media (max-width: 546px) {
+    .navbar{
+        justify-content: center;
+    }
+    .navbar img{
+        height: 20px;
+        width: 20px;
+    }   
+    .navbar p{
+        font-size: 16px;
+    }
+    .navbar p span{
+        font-size: 12px;
+    }
+    .navbar a{
+        padding: 3px 10px;
+        font-size: 16px;
+        margin-left: 10px;
+        line-height: 18px;
+    }
+    .navbar button{
+        font-size: 20px;
     }
 }
